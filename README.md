@@ -4,6 +4,8 @@ Batteria: Redwood Materials Battery Buying Marketplace (Backend Service)
 
 ### Rationale
 
+- to test, first run `python main.py` and then `python test.py`
+
 - Didn't use a database because in-memory was enough, no need to persist data between app restart. In the future would be nice to implement a AWS cdk and link to a graph or relational database.
 
 - Pickups had capability to have multiple batteries (list of batteries)
